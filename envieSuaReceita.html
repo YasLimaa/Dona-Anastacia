@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<meta charset="UTF-8">
+    	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Vovó - Envia sua Receita</title>
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=The+Nautigal:wght@400;700&display=swap" rel="stylesheet">
+		<link rel="stylesheet" href="./styles.css">
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous" id="bootstrap-css-cdn">
+	</head>
+	<body>
+		<div class="container vovo-layout">
+			<header>
+				<div class="square-header-image">
+					<div class="header-image" style="background-image: url('./assets/images/vovo-anastacia.png');"></div>
+				</div>
+				<nav class="vovo-menu">
+					<a href="./index.html">Home</a>
+					<a href="./receitas.html">Receitas</a>
+					<a href="./dicas.html">Dicas</a>
+					<a href="./sobreVovo.html">Sobre a Vovó</a>
+					<a href="./envieSuaReceita.html">Envie sua Receita</a>
+				</nav>
+			</header>
+			<main class="vovo-main p-4">
+				<h2 class="vovo-title text-center">Envie sua Receita</h2>
+				<section class="vovo-content p-4">
+					<section class="vovo-sub-content p-3">
+						<p>A vovó adora aprender pratos novos! Se você tem uma receita especial — daquelas que fazem sucesso em casa — compartilhe com a gente. Mande os ingredientes, o modo de preparo e, se quiser, conte a história por trás do prato. Na cozinha da vovó, sempre tem espaço pra mais um sabor!</p>
+						<form class="vovo-forms">
+							<img src="./assets/images/vovo-anastacia-envie-receita.png" alt="Desenho da vovó Anastacia com avental cercada de cupcakes e corações, em fundo xadrez rosa" class="vovo-submit-img">
+							<div class="vovo-resource">
+								<label>*Nome Completo</label>
+								<input type="text" name="nomeCompleto" style="width: 500px;">
+							</div>
+							<div class="vovo-resource">
+								<label>*E-mail</label>
+								<input type="text" name="nomeCompleto" style="width: 500px;">
+							</div>
+							<div class="row">
+								<div class="vovo-resource col-5">
+									<label>*Título da Receita</label>
+									<input type="text" name="nomeCompleto" style="width: 300px;">
+								</div>
+								<div class="vovo-resource col-4">
+									<label>*Categoria da Receita</label>
+									<select name="categoriaReceita" style="width: 250px;">
+										<option>Aperitivo</option>
+										<option>Prato Principal</option>
+										<option>Acompanhamento</option>
+										<option>Salada</option>
+										<option>Sobremesa</option>
+										<option>Bebida</option>
+									</select>
+								</div>
+							</div>
+							<div class="row">
+								<div class="vovo-resource col">
+									<label>*Ingredientes</label>
+									<textarea name="nomeCompleto"></textarea>
+								</div>
+								<div class="vovo-resource col">
+									<label>*Modo de Preparo</label>
+									<textarea name="nomeCompleto"></textarea>
+								</div>
+							</div>
+							<div class="row">
+								<div class="vovo-resource col">
+									<label for="nomeCompleto">Tempo de preparo</label>
+									<input type="text" name="nomeCompleto">
+								</div>
+								<div class="vovo-resource col fileRecipe">
+									<label for='fileRecipe'>Foto da Receita</label>
+									<label for='fileRecipe' class="label-input"><i class="bi bi-paperclip"></i> Escolha seu arquivo</label>
+									<input id='fileRecipe' type="file" name="fotoReceita">
+								</div>
+							</div>
+							<div class="row">
+								<div class="vovo-resource col">
+									<input type="submit" name="enviar" class="submitRecipe">
+								</div>
+								<div class="vovo-resource col">
+								<p>* Campos obrigatórios.</p>
+								</div>
+							</div>
+						</form>
+					</section>
+				</section>
+			</main>
+			<footer class="row">
+
+			</footer>
+		</div>
+		<script src="scripts.js"></script>
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+	</body>
+</html>

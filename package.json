@@ -1,0 +1,29 @@
+{
+  "name": "receitas-da-vovo",
+  "version": "1.0.0",
+  "description": "Um site de receitas nostalgicas da Vovó.",
+  "keywords": [
+    "site",
+    "vovo",
+    "receitas",
+    "comida"
+  ],
+  "homepage": "https://github.com/SouOWendel/blog-vovo-anastacia#readme",
+  "bugs": {
+    "url": "https://github.com/SouOWendel/blog-vovo-anastacia/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SouOWendel/blog-vovo-anastacia.git"
+  },
+  "license": "ISC",
+  "author": "Wendel, Yasmin, Alberto",
+  "type": "module",
+  "main": "scripts.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "http-server": "^14.1.1"
+  }
+}

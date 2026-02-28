@@ -1,0 +1,32 @@
+[
+  {
+    "ingrediente": "Açúcar",
+    "xicara": "160 g",
+    "colherSopa": "10 g",
+    "colherCha": "3,5 g"
+  },
+  {
+    "ingrediente": "Amido de milho",
+    "xicara": "150 g",
+    "colherSopa": "9 g",
+    "colherCha": "3 g"
+  },
+  {
+    "ingrediente": "Farinha de trigo",
+    "xicara": "120 g",
+    "colherSopa": "7,5 g",
+    "colherCha": "2,5 g"
+  },
+  {
+    "ingrediente": "Manteiga",
+    "xicara": "200 g",
+    "colherSopa": "14 g",
+    "colherCha": "4 g"
+  },
+  {
+    "ingrediente": "Sal",
+    "xicara": "-",
+    "colherSopa": "20 g",
+    "colherCha": "5 g"
+  }
+]
