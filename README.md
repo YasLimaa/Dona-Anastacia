@@ -1,6 +1,12 @@
 # 🍳 Dona Anastásia - Receitas com Afeto
 O Dona Anastácia é um espaço digital dedicado a receitas tradicionais, práticas e cheias de nostalgia. Inspirado no sabor das refeições preparadas pelas avós, o projeto une a culinária caseira com a praticidade da web moderna.
 
+> Projeto desenvolvido em equipe durante a graduação em Análise e Desenvolvimento de Sistemas (IFSP).
+# Equipe 
+- [Alberto Caetano](https://github.com/albertocaetano)
+- [Yasmin Lima](https://github.com/YasLimaa)
+- [Wendel Henrique](https://github.com/SouOWendel)
+
 # 🚀 Tecnologias e Ferramentas
 Para construir este ambiente acolhedor e funcional, foram utilizadas as seguintes ferramentas:
 - HTML5 e CSS3: Estrutura e estilização visual do site.
